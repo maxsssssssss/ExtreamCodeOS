@@ -1,0 +1,30 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"fstream": "cpp",
+			"ostream": "cpp",
+			"string": "cpp",
+			"vector": "cpp",
+			"xstring": "cpp",
+			"filesystem": "cpp",
+			"xutility": "cpp",
+			"map": "cpp",
+			"array": "cpp",
+			"chrono": "cpp",
+			"iterator": "cpp",
+			"memory": "cpp",
+			"unordered_map": "cpp",
+			"valarray": "cpp",
+			"initializer_list": "cpp",
+			"list": "cpp",
+			"type_traits": "cpp",
+			"xhash": "cpp",
+			"xtree": "cpp"
+		}
+	}
+}
