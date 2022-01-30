@@ -135,7 +135,11 @@ static bool user_input_menu (){
 	auto char c;
 	FILE* f = NULL;
 	__menu:
+#ifdef _WIN32
 	system("cls");
+#else
+	system("clear");
+#endif
 	printf("ExtremeCodeOS runner\n");
 	printf("p - [play]\n");
 	printf("e - [exit]\n");
