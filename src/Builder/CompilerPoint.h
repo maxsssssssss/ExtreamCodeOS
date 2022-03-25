@@ -6,10 +6,9 @@
 
 using namespace std;
 
-struct CompilerPoint
-{
-	string CompilerType;
-	map<string, string> CompilerData;
-	vector<string> IfSuccessful;
-	vector<string> IfFailed;
+struct CompilerPoint {
+    string CompilerType;
+    map<string, string> CompilerData;
+    vector<string> IfSuccessful;
+    vector<string> IfFailed;
 };

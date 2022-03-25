@@ -5,9 +5,8 @@
 
 using namespace std;
 
-struct CompilerType
-{
-	string Name;
-	vector<string> CompilCommands;
-	vector<string> Args;
+struct CompilerType {
+    string Name;
+    vector<string> CompilCommands;
+    vector<string> Args;
 };
